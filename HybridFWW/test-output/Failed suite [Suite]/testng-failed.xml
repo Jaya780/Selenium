@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]">
+  <parameter name="sBrowser" value="chrome"/>
+  <test name="Test(failed)(failed)">
+    <parameter name="sBrowser" value="chrome"/>
+    <classes>
+      <class name="com.hybridframework.scripts.TestLoginPage">
+        <methods>
+          <include name="openApplication"/>
+          <include name="test_ValidLoginPage"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- com.hybridframework.scripts.TestLoginPage -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
